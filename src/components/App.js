@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import Game from './Game';
-import { movePlayer } from './actions/actions';
+import { movePlayer } from './redux/actions/actions';
 
 class App extends React.Component {
   componentDidMount() {

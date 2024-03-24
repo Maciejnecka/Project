@@ -7,7 +7,7 @@ import GlobalFonts from './fonts/GlobalFonts.js';
 import GlobalStyles from './styled/GlobalStyles.js';
 import theme from './styled/theme.js';
 import { Provider } from 'react-redux';
-import store from './components/store.js';
+import store from './components/redux/store.js';
 
 const root = createRoot(document.querySelector('#root'));
 root.render(
